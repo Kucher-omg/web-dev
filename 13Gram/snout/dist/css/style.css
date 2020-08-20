@@ -1,0 +1,775 @@
+   body {
+       background-color: rgb(255, 166, 0);
+   }
+   /* HEADER BEGIN */
+   
+   #logo-img {
+       background: url(../images/logo/logo150.jpg) no-repeat;
+       width: 150px;
+       height: 130px;
+       margin: -5px 10px 0px 20px;
+       margin-bottom: -30px;
+   }
+   
+   .navbar {
+       background-color: rgb(36, 34, 34);
+       margin: 0px 50px 0px 50px;
+   }
+   
+   .navbar-brand h1 {
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       /*font-family: 'Caveat', cursive;
+       font-family: 'Montserrat Alternates', sans-serif;*/
+       color: white;
+       margin-bottom: 0px;
+       font-size: 95px;
+       font-weight: bold;
+       text-shadow: 1px 1px 1px #222;
+       position: relative;
+       margin-left: -50px;
+       /* margin-left: -45px; */
+       line-height: .75;
+   }
+   
+   #hookah {
+       text-align: center;
+       font-family: 'Josefin Slab', serif;
+       padding-top: -10px;
+       padding-bottom: -10px;
+       margin-bottom: -10px;
+       letter-spacing: 14px;
+       margin-left: -50px;
+       color: white;
+       margin-top: -20px;
+   }
+   
+   .navbar-brand a:hover,
+   .navbar-brand a:focus {
+       text-decoration: none;
+   }
+   
+   #time {
+       color: white;
+       text-align: center;
+       font-size: 30px;
+       margin-right: 20px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   
+   .navbar-social {
+       position: absolute;
+       margin: 5px 40px 0 -70px;
+   }
+   
+   #telegram {
+       margin-top: 6px;
+       margin-left: 5px;
+   }
+   /* END OF THE HEADER */
+   /* BODY */
+   
+   #firstImg {
+       background: url(../images/Slider/Slider-1200-first.png) no-repeat;
+       width: 1200px;
+       height: 450px;
+   }
+   
+   #secondImg {
+       background: url(../images/Slider/Slider-1200-second.png) no-repeat;
+       width: 1200px;
+       height: 450px;
+   }
+   
+   .carousel-inner img {
+       margin: 25px auto;
+   }
+   
+   .carousel-control-prev {
+       margin-left: 10%;
+       position: absolute;
+   }
+   
+   .carousel-control-prev-icon,
+   .carousel-control-next-icon {
+       width: 40px;
+       height: 40px;
+   }
+   
+   .carousel-control-next {
+       margin-right: 10%;
+       position: absolute;
+   }
+   /*THE END OF BODY*/
+   /* BEGIN JUMBOTRON */
+   
+   #tiles div a div {
+       height: 250px;
+       width: 100%;
+       margin: 10px auto;
+       margin-bottom: 25px;
+       position: relative;
+       overflow: hidden;
+   }
+   
+   #tiles div a div:hover {
+       box-shadow: 0 1px 5px 1px #0e0505;
+   }
+   
+   #tabak {
+       background: url(../images/main-content/tabak.jpg) no-repeat;
+       background-position: center;
+       width: 100%;
+       height: 306px;
+   }
+   
+   #chashi {
+       background: url(../images/main-content/chasha.jpg) no-repeat;
+       background-position: center;
+       width: 100%;
+       height: 306px;
+   }
+   
+   #ugol {
+       background: url(../images/main-content/ugol.jpg) no-repeat;
+       background-position: center;
+       width: 100%;
+       height: 306px;
+   }
+   
+   #hookahh {
+       background: url(../images/main-content/hookah_1.jpg) no-repeat;
+       background-position: center;
+       width: 100%;
+       height: 306px;
+   }
+   
+   #tabak span,
+   #ugol span,
+   #map span,
+   #chashi span,
+   #hookahh span {
+       position: absolute;
+       bottom: 0;
+       right: 0;
+       width: 100%;
+       text-align: center;
+       font-family: 'Caveat', cursive;
+       font-family: 'Montserrat Alternates', sans-serif;
+       font-size: 1.6em;
+       text-transform: uppercase;
+       background-color: #000;
+       color: #fff;
+       opacity: .8;
+   }
+   /* END OF THE JUMBUTRON */
+   /* BEGIN FOOTER */
+   
+   .panel-footer {
+       margin-top: 30px;
+       padding-bottom: 1px;
+       background-color: rgb(36, 34, 34);
+       border-top: 0;
+       margin: 0px 50px 0px 50px;
+   }
+   
+   .panel-footer div.row {
+       margin-bottom: 35px;
+   }
+   
+   #info {
+       color: rgb(255, 166, 0);
+       font-size: 20px;
+       padding-left: 90px;
+   }
+   
+   section {
+       margin-bottom: -30px;
+       margin-top: 10px;
+   }
+   
+   #wait {
+       font-weight: 1000;
+       text-align: center;
+       margin-left: -200px;
+   }
+   
+   #timeAndsocial {
+       color: white;
+       font-size: 20px;
+       padding-left: 30px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   
+   .social {
+       margin-bottom: 0;
+   }
+   /* END OF THE FOOTER */
+   /*TABAK.HTML*/
+   
+   #tabak_html {
+       font-family: 'Caveat', cursive;
+       font-family: 'Montserrat Alternates', sans-serif;
+       margin-bottom: 20px;
+   }
+   
+   .tabak-photo {
+       position: relative;
+   }
+   
+   .tabak-photo img {
+       border-radius: 15px 15px 0 0;
+   }
+   
+   .price {
+       font-size: 1.1em;
+       text-align: right;
+       background-color: black;
+       color: white;
+       padding-right: 10px;
+       border-radius: 0 0 15px 15px;
+       margin-bottom: 15px;
+   }
+   
+   .tabak-photo div {
+       font-family: 'Caveat', cursive;
+       font-family: 'Montserrat Alternates', sans-serif;
+       position: absolute;
+       bottom: 0;
+       right: 0;
+       width: 80px;
+       background-color: black;
+       text-align: center;
+       border-radius: 15px 15px 0 0;
+       color: white;
+       font-size: 20px;
+       width: 170px;
+   }
+   
+   .mafiaLines {
+       text-align: center;
+       font-size: 20px;
+   }
+   
+   .eachSection {
+       margin-bottom: 20px;
+   }
+   /*THE END OF TABAK.HTML*/
+   /* CHASHA.HTML */
+   
+   .price-chasha {
+       font-size: 1.1em;
+       text-align: right;
+       background-color: black;
+       color: white;
+       padding-right: 10px;
+       border-radius: 0 0 15px 15px;
+       margin-bottom: 15px;
+   }
+   
+   .tabak-photo #name-chasha {
+       font-family: 'Caveat', cursive;
+       font-family: 'Montserrat Alternates', sans-serif;
+       position: absolute;
+       bottom: 0;
+       right: 0;
+       width: 80px;
+       background-color: black;
+       text-align: center;
+       border-radius: 15px 15px 0 0;
+       color: white;
+       font-size: 20px;
+       width: 170px;
+   }
+   /* END CHASHA.HTML */
+   
+   @media (min-width: 1200px) and (max-width: 1293px) {
+       #firstImg {
+           background: url(../images/Slider/Slider-992-first.png) no-repeat;
+           width: 992px;
+           height: 373px;
+       }
+       #secondImg {
+           background: url(../images/Slider/Slider-992-second.png) no-repeat;
+           width: 992px;
+           height: 373px;
+       }
+   }
+   
+   @media (min-width:992px) and (max-width:1199px) {
+       /* HEader */
+       .navbar-brand h1 {
+           font-size: 75px;
+       }
+       #hookah {
+           font-size: 0.8em;
+           letter-spacing: 12px;
+       }
+       #time {
+           font-size: 25px;
+       }
+       #telegram {
+           width: 35px;
+           height: 35px;
+       }
+       #insta {
+           width: 55px;
+           height: 55px;
+       }
+       #tg:hover,
+       #tg:focus {
+           text-decoration: none;
+       }
+       /* End Header */
+       /* Body */
+       #firstImg {
+           background: url(../images/Slider/Slider-768-first.png) no-repeat;
+           width: 768px;
+           height: 288px;
+       }
+       #secondImg {
+           background: url(../images/Slider/Slider-768-second.png) no-repeat;
+           width: 768px;
+           height: 288px;
+       }
+       .carousel-control-prev {
+           margin-left: 11%;
+           position: absolute;
+       }
+       .carousel-control-next {
+           margin-right: 11%;
+           position: absolute;
+       }
+       /* End of the body */
+   }
+   
+   @media(min-width:768px) and (max-width:991px) {
+       /* Header */
+       .navbar-brand h1 {
+           font-size: 65px;
+       }
+       #hookah {
+           font-size: 0.7em;
+           letter-spacing: 10px;
+       }
+       #logo-img {
+           background: url(../images/logo/logo125.jpg) no-repeat;
+           margin-top: 10px;
+       }
+       #time {
+           font-size: 20px;
+           margin-bottom: 0px;
+       }
+       #telegram {
+           width: 30px;
+           height: 30px;
+       }
+       #insta {
+           width: 50px;
+           height: 50px;
+       }
+       .navbar-social {
+           margin: -5px 40px 0px -70px;
+       }
+       /* End HEader */
+       /* Body */
+       #firstImg {
+           background: url(../images/Slider/Slider-600-first.png) no-repeat;
+           width: 653px;
+           height: 247px;
+       }
+       #secondImg {
+           background: url(../images/Slider/Slider-600-second.png) no-repeat;
+           width: 653px;
+           height: 247px;
+       }
+       .carousel-control-prev {
+           margin-left: 12%;
+           position: absolute;
+       }
+       .carousel-control-next {
+           margin-right: 12%;
+           position: absolute;
+       }
+       .carousel-control-prev-icon,
+       .carousel-control-next-icon {
+           width: 35px;
+           height: 35px;
+       }
+       /* End of the body */
+       /*Tabak.html*/
+       .tabak-photo div {
+           width: 100%;
+           font-size: 15px;
+       }
+       .price {
+           font-size: 13px;
+       }
+       .mafiaLines {
+           text-align: left;
+       }
+       /*the end of tabak.html*/
+       /* Footer */
+       #info {
+           font-size: 18px;
+           padding-left: 10px;
+       }
+       #wait {
+           margin-left: -100px;
+       }
+       #timeAndsocial {
+           font-size: 18px;
+           padding-left: 20px;
+       }
+       /* End of the footer */
+   }
+   
+   @media ( min-width: 767px) and (max-width:818px) {
+       /* Footer */
+       #info {
+           font-size: 16px;
+           padding-left: 20px;
+       }
+       #wait {
+           margin-left: -100px;
+       }
+       #timeAndsocial {
+           font-size: 16px;
+           padding-left: 20px;
+       }
+       /* End of the footer */
+   }
+   
+   @media ( min-width: 595px) and (max-width:767px) {
+       /* Header */
+       .navbar-brand h1 {
+           font-size: 50px;
+           margin-right: 30px;
+       }
+       #hookah {
+           font-size: 0.7em;
+           letter-spacing: 5px;
+           margin-right: 30px;
+       }
+       #logo-img {
+           background: url(../images/logo/logo100.jpg) no-repeat;
+           margin-bottom: -50px;
+       }
+       #time {
+           font-size: 17px;
+           margin-bottom: 0px;
+       }
+       #telegram {
+           width: 25px;
+           height: 25px;
+       }
+       #insta {
+           width: 40px;
+           height: 40px;
+       }
+       .navbar-social {
+           margin: -7px 40px 0px -55px;
+       }
+       .navbar-social #insta {
+           margin-left: 3px;
+       }
+       /* ENd HEader */
+       /* Body */
+       #firstImg {
+           background: url(../images/Slider/Slider-500-first.png) no-repeat;
+           width: 556px;
+           height: 210px;
+       }
+       #secondImg {
+           background: url(../images/Slider/Slider-500-second.png) no-repeat;
+           width: 556px;
+           height: 210px;
+       }
+       .carousel-control-prev {
+           margin-left: 11%;
+           position: absolute;
+       }
+       .carousel-control-next {
+           margin-right: 11%;
+           position: absolute;
+       }
+       .carousel-control-prev-icon,
+       .carousel-control-next-icon {
+           width: 30px;
+           height: 30px;
+       }
+       /* End of the body */
+       /* Footer */
+       #info {
+           font-size: 14px;
+           padding-left: 20px;
+       }
+       #wait {
+           margin-left: -100px;
+       }
+       #timeAndsocial {
+           font-size: 14px;
+           padding-left: 20px;
+       }
+       #telegram2 {
+           width: 25px;
+           height: 25px;
+       }
+       #insta2 {
+           width: 40px;
+           height: 40px;
+       }
+       /* End of the footer */
+       /* CHASHA.HTML */
+       .price-chasha {
+           font-size: 15px;
+       }
+       .tabak-photo #name-chasha {
+           font-size: 15px;
+       }
+       /* END CHASHA.HTML */
+   }
+   /*editional*/
+   
+   @media (min-width: 593px) and ( max-width: 653px) {
+       /* Body */
+       #firstImg {
+           background: url(../images/Slider/Slider-300-first.png) no-repeat;
+           width: 445px;
+           height: 168px;
+       }
+       #secondImg {
+           background: url(../images/Slider/Slider-300-second.png) no-repeat;
+           width: 445px;
+           height: 168px;
+       }
+       .carousel-control-prev {
+           margin-left: 11%;
+           position: absolute;
+       }
+       .carousel-control-next {
+           margin-right: 11%;
+           position: absolute;
+       }
+       .carousel-control-prev-icon,
+       .carousel-control-next-icon {
+           width: 25px;
+           height: 25px;
+       }
+       /* End of the body */
+   }
+   
+   @media (min-width: 415px) and ( max-width: 594px) {
+       /* HEader */
+       .navbar-brand {
+           margin-left: -20px;
+           margin-top: -10px;
+       }
+       .navbar-brand h1 {
+           font-size: 40px;
+       }
+       #hookah {
+           font-size: 0.6em;
+           letter-spacing: 5px;
+       }
+       #logo-img {
+           display: none;
+       }
+       #time {
+           font-size: 17px;
+       }
+       #telegram {
+           width: 25px;
+           height: 25px;
+       }
+       #insta {
+           width: 40px;
+           height: 40px;
+       }
+       .navbar-social {
+           margin: -5px 40px 0px -45px;
+       }
+       .navbar-social #insta {
+           margin-left: 3px;
+       }
+       /*End HEader */
+       /* Body */
+       #firstImg {
+           background: url(../images/Slider/Slider-300-first.png) no-repeat;
+           width: 445px;
+           height: 168px;
+       }
+       #secondImg {
+           background: url(../images/Slider/Slider-300-second.png) no-repeat;
+           width: 445px;
+           height: 168px;
+       }
+       .carousel-control-prev {
+           margin-left: 9%;
+           position: absolute;
+       }
+       .carousel-control-next {
+           margin-right: 9%;
+           position: absolute;
+       }
+       .carousel-control-prev-icon,
+       .carousel-control-next-icon {
+           width: 20px;
+           height: 20px;
+       }
+       /* End of the body */
+       /* Footer */
+       #info {
+           font-size: 14px;
+           padding-left: 20px;
+       }
+       #wait {
+           margin-left: 0px;
+           margin-bottom: 30px;
+       }
+       #timeAndsocial {
+           font-size: 14px;
+           padding-left: 20px;
+       }
+       #telegram2 {
+           width: 25px;
+           height: 25px;
+       }
+       #insta2 {
+           width: 40px;
+           height: 40px;
+       }
+       section {
+           text-align: center;
+       }
+       /* End of the footer */
+       /* CHASHA.HTML */
+       .price-chasha {
+           font-size: 15px;
+       }
+       .tabak-photo #name-chasha {
+           font-size: 15px;
+       }
+       /* END CHASHA.HTML */
+   }
+   
+   @media (min-width: 415px) and (max-width: 460px) {
+       /* Body */
+       #firstImg {
+           background: url(../images/Slider/Slider-200-first.png) no-repeat;
+           width: 379px;
+           height: 143px;
+       }
+       #secondImg {
+           background: url(../images/Slider/Slider-200-second.png) no-repeat;
+           width: 379px;
+           height: 143px;
+       }
+       .carousel-control-prev {
+           margin-left: 8%;
+           position: absolute;
+       }
+       .carousel-control-next {
+           margin-right: 8%;
+           position: absolute;
+       }
+       .carousel-control-prev-icon,
+       .carousel-control-next-icon {
+           width: 15px;
+           height: 15px;
+       }
+       /* End of the body */
+   }
+   
+   @media( max-width: 414px) {
+       .navbar-brand {
+           margin-left: 10px;
+           margin-top: -10px;
+       }
+       .navbar-brand h1 {
+           font-size: 30px;
+       }
+       #hookah {
+           font-size: 0.5em;
+           letter-spacing: 5px;
+       }
+       #logo-img {
+           display: none;
+       }
+       #time {
+           font-size: 17px;
+       }
+       #telegram {
+           width: 25px;
+           height: 25px;
+       }
+       #insta {
+           width: 40px;
+           height: 40px;
+       }
+       .navbar-social {
+           margin: -5px 40px 0px -45px;
+       }
+       .navbar-social #insta {
+           margin-left: 3px;
+       }
+       /* Body */
+       #firstImg {
+           background: url(../images/Slider/Slider-+-first.png) no-repeat;
+           width: 410px;
+           height: 154px;
+       }
+       #secondImg {
+           background: url(../images/Slider/Slider-+-second.png) no-repeat;
+           width: 410px;
+           height: 154px;
+       }
+       .carousel-control-prev {
+           margin-left: 8%;
+           position: absolute;
+       }
+       .carousel-control-next {
+           margin-right: 8%;
+           position: absolute;
+       }
+       .carousel-control-prev-icon,
+       .carousel-control-next-icon {
+           width: 12px;
+           height: 12px;
+       }
+       #carouselExampleIndicators {
+           margin-top: -10px;
+           margin-bottom: -10px;
+       }
+       /* End of the body */
+       /* Footer */
+       #tiles div a div {
+           height: 235px;
+           width: 80%;
+           margin: 0px auto;
+           margin-bottom: 15px;
+       }
+       #info {
+           font-size: 13px;
+           padding-left: 20px;
+       }
+       #wait {
+           margin-left: 0px;
+           margin-bottom: 30px;
+       }
+       #timeAndsocial {
+           font-size: 13px;
+           padding-left: 20px;
+       }
+       #telegram2 {
+           width: 25px;
+           height: 25px;
+       }
+       #insta2 {
+           width: 40px;
+           height: 40px;
+       }
+       section {
+           text-align: center;
+       }
+       /* End of the footer */
+   }
