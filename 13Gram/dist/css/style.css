@@ -251,6 +251,10 @@
    }
    
    .eachSection {
+       margin-bottom: 0px;
+   }
+   
+   .discript {
        margin-bottom: 20px;
    }
    /*THE END OF TABAK.HTML*/
@@ -281,6 +285,25 @@
        width: 170px;
    }
    /* END CHASHA.HTML */
+   /* Hookah */
+   
+   #hookah-img {
+       background-position: center;
+       margin-bottom: 30px;
+   }
+   
+   #hookah-img img {
+       border-radius: 50px;
+   }
+   
+   #hookah_photo {
+       text-align: center;
+   }
+   
+   #hookah_disc {
+       margin-top: 10px;
+   }
+   /* The end of Hookah */
    
    @media (min-width: 1200px) and (max-width: 1293px) {
        #firstImg {
@@ -527,10 +550,19 @@
            font-size: 15px;
        }
        /* END CHASHA.HTML */
+       /* HOokah */
+       #hookah_photo {
+           padding-bottom: 0px;
+       }
+       #hookah_disc {
+           margin-top: -20px;
+           margin-bottom: 20px;
+       }
+       /* END OF THE HOOKAH */
    }
    /*editional*/
    
-   @media (min-width: 593px) and ( max-width: 653px) {
+   @media (min-width: 594px) and ( max-width: 653px) {
        /* Body */
        #firstImg {
            background: url(../images/Slider/Slider-300-first.png) no-repeat;
@@ -556,9 +588,18 @@
            height: 25px;
        }
        /* End of the body */
+       /* HOokah */
+       #hookah_photo {
+           padding-bottom: 0px;
+       }
+       #hookah_disc {
+           margin-top: -20px;
+           margin-bottom: 20px;
+       }
+       /* END OF THE HOOKAH */
    }
    
-   @media (min-width: 415px) and ( max-width: 594px) {
+   @media (min-width: 415px) and ( max-width: 593px) {
        /* HEader */
        .navbar-brand {
            margin-left: -20px;
@@ -650,6 +691,37 @@
            font-size: 15px;
        }
        /* END CHASHA.HTML */
+       /* HOokah */
+       #hookah_photo {
+           padding-bottom: 0px;
+       }
+       #hookah_disc {
+           margin-top: -20px;
+           margin-bottom: 20px;
+       }
+       /* END OF THE HOOKAH */
+   }
+   
+   @media (max-width: 767px) {
+       /* HOokah */
+       #hookah_photo {
+           padding-bottom: 0px;
+       }
+       #hookah_disc {
+           margin-top: -20px;
+           margin-bottom: 20px;
+           margin-left: 50px;
+       }
+       /* END OF THE HOOKAH */
+   }
+   
+   @media (max-width: 574px) {
+       /*Tobacco*/
+       .row .discript .palka {
+           border-bottom: 2px solid black;
+           margin: 0px auto;
+       }
+       /*the end of Tobacco*/
    }
    
    @media (min-width: 415px) and (max-width: 460px) {
@@ -678,9 +750,10 @@
            height: 15px;
        }
        /* End of the body */
+       /* END OF THE HOOKAH */
    }
    
-   @media( max-width: 414px) {
+   @media (min-width: 376px) and (max-width: 414px) {
        .navbar-brand {
            margin-left: 10px;
            margin-top: -10px;
@@ -722,6 +795,100 @@
            background: url(../images/Slider/Slider-+-second.png) no-repeat;
            width: 410px;
            height: 154px;
+       }
+       .carousel-control-prev {
+           margin-left: 8%;
+           position: absolute;
+       }
+       .carousel-control-next {
+           margin-right: 8%;
+           position: absolute;
+       }
+       .carousel-control-prev-icon,
+       .carousel-control-next-icon {
+           width: 12px;
+           height: 12px;
+       }
+       #carouselExampleIndicators {
+           margin-top: -10px;
+           margin-bottom: -10px;
+       }
+       /* End of the body */
+       /* Footer */
+       #tiles div a div {
+           height: 235px;
+           width: 80%;
+           margin: 0px auto;
+           margin-bottom: 15px;
+       }
+       #info {
+           font-size: 13px;
+           padding-left: 20px;
+       }
+       #wait {
+           margin-left: 0px;
+           margin-bottom: 30px;
+       }
+       #timeAndsocial {
+           font-size: 13px;
+           padding-left: 20px;
+       }
+       #telegram2 {
+           width: 25px;
+           height: 25px;
+       }
+       #insta2 {
+           width: 40px;
+           height: 40px;
+       }
+       section {
+           text-align: center;
+       }
+       /* End of the footer */
+   }
+   
+   @media (max-width: 375px) {
+       .navbar-brand {
+           margin-left: 10px;
+           margin-top: -10px;
+       }
+       .navbar-brand h1 {
+           font-size: 30px;
+       }
+       #hookah {
+           font-size: 0.5em;
+           letter-spacing: 5px;
+       }
+       #logo-img {
+           display: none;
+       }
+       #time {
+           font-size: 17px;
+       }
+       #telegram {
+           width: 25px;
+           height: 25px;
+       }
+       #insta {
+           width: 40px;
+           height: 40px;
+       }
+       .navbar-social {
+           margin: -5px 40px 0px -45px;
+       }
+       .navbar-social #insta {
+           margin-left: 3px;
+       }
+       /* Body */
+       #firstImg {
+           background: url(../images/Slider/Slider-min-first.png) no-repeat;
+           width: 373px;
+           height: 140px;
+       }
+       #secondImg {
+           background: url(../images/Slider/Slider-min-second.png) no-repeat;
+           width: 373px;
+           height: 140px;
        }
        .carousel-control-prev {
            margin-left: 8%;
