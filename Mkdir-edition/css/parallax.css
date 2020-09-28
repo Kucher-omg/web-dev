@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Nobile:400,700&display=swap');
+.parallax {
+    margin: 0;
+    height: 200%;
+    background: #191919;
+    font-family: 'Nobile';
+}
+
+.parallax-iPhone {
+    margin: 0;
+    height: 200%;
+    background: #ffffff;
+    font-family: 'Nobile';
+    color: black;
+}
+
+.parallax-iPhone h2,
+.parallax-iPhone .parallax-container p,
+.parallax-iPhone .parallax-container h1 {
+    color: black;
+}
+
+.parallax-iPhone .parallax-container h1 {
+    text-shadow: 1px 1px 2px rgb(10, 8, 8), 0 0 1em rosybrown;
+}
+
+*,
+*:before,
+*:before {
+    box-sizing: border-box;
+}
+
+.parallax-container {
+    padding: 5em;
+    height: auto;
+}
+
+.parallax-container:first-child {
+    display: grid;
+    grid-template-rows: 10% 30% auto;
+}
+
+.parallax-container p {
+    line-height: 1.5em;
+    color: white;
+}
+
+.parallax-container h1 {
+    color: black;
+    text-align: center;
+    margin-top: 3em;
+    font-weight: normal;
+    font-size: 5em;
+    line-height: 0.9em;
+    z-index: 1;
+}
+
+h2 {
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    font-weight: normal;
+}
+
+.subtext {
+    margin-top: 0;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.secondary {
+    margin-top: 33%;
+}
+
+.back {
+    position: absolute;
+    /* z-index: -1; */
+    width: 100%;
+    top: 0;
+}
+
+@media (max-width: 700px) {
+    .secondary {
+        margin-top: 70%;
+    }
+    .parallax {
+        height: 210%;
+    }
+}
+
+@media (max-width: 450px) {
+    .secondary {
+        margin-top: 50%;
+    }
+    .parallax {
+        height: 160%;
+    }
+    .parallax-container h1 {
+        margin-top: 4em;
+        font-size: 3em;
+        line-height: 0.9em;
+        z-index: 1;
+    }
+    .parallax-container .line {
+        align-self: end;
+        width: 50%;
+        border-right: 2px solid rgb(0, 0, 0);
+        text-shadow: 1px 1px 2px rgb(10, 8, 8), 0 0 1em rosybrown;
+        z-index: 1;
+        height: 200%;
+        margin-bottom: -19em;
+        position: relative;
+    }
+    .parallax-container .line::after {
+        content: ' ';
+        z-index: 1;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 11px 11px 0 11px;
+        border-color: rgb(0, 0, 0) transparent transparent transparent;
+        right: -0.7em;
+        bottom: -2px;
+    }
+    .secondary {
+        padding: 7em 2.5em 2.5em 2.5em;
+    }
+}

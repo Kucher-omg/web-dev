@@ -1,0 +1,253 @@
+/* NAVIGATION */
+
+.shift a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(200, 191, 231);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-family: 'Exo', sans-serif;
+}
+
+.shift a,
+.shift a:after,
+.shift a:before {
+    transition: all .5s;
+}
+
+.shift a:hover {
+    color: #555;
+}
+
+.shift a {
+    position: relative;
+    z-index: 1;
+}
+
+.shift a:hover {
+    color: black;
+}
+
+.shift a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: rgb(200, 191, 231);
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+.shift a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+
+/* Button for card class - (shift-2)*/
+
+.shift-2 {
+    margin: 20px;
+}
+
+.shift-2 a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-family: 'Exo', sans-serif;
+}
+
+.shift-2 a,
+.shift-2 a:after,
+.shift-2 a:before {
+    transition: all .5s;
+}
+
+.shift-2 a:hover {
+    color: white;
+}
+
+.shift-2 a {
+    position: relative;
+    z-index: 1;
+}
+
+.shift-2 a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 45%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: black;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+.shift-2 a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+
+/* Button for card class - (shift-3)*/
+
+.shift-3 {
+    margin: 20px;
+}
+
+.shift-3 a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-family: 'Exo', sans-serif;
+}
+
+.shift-3 a,
+.shift-3 a:after,
+.shift-3 a:before {
+    transition: all .5s;
+}
+
+.shift-3 a:hover {
+    color: black;
+    background-color: rgb(200, 191, 231);
+}
+
+.shift-3 a {
+    position: relative;
+    z-index: 1;
+}
+
+.shift-3 a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: rgb(200, 191, 231);
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+.shift-3 a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+
+/* Button for card class - (shift-4)*/
+
+.button-for-add {
+    margin: 20px;
+    width: 90%;
+}
+
+.button-for-add a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-family: 'Exo', sans-serif;
+}
+
+.button-for-add a,
+.button-for-add a:after,
+.button-for-add a:before {
+    transition: all .5s;
+}
+
+.button-for-add a:hover {
+    color: black;
+    background-color: rgb(200, 191, 231);
+}
+
+.button-for-add a {
+    position: relative;
+    z-index: 1;
+}
+
+.button-for-add a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: rgb(200, 191, 231);
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+.button-for-add a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+
+/* Button */
+
+.products-element__btn {
+    color: white;
+    cursor: pointer;
+    outline: none;
+    background-color: black;
+    padding: 1% 0 1% 0;
+    width: 90%;
+    border: none;
+    padding: 4% 0 4% 0;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Exo', sans-serif;
+}
+
+.products-element__btn_active {
+    border: none;
+    background-color: green;
+}

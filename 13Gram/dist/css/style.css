@@ -311,6 +311,8 @@
    }
    /* The end of Hookah */
    
+   
+
    @media (min-width: 1200px) and (max-width: 1293px) {
        #firstImg {
            background: url(../images/Slider/Slider-992-first.png) no-repeat;
@@ -339,7 +341,7 @@
        #telegram {
            width: 35px;
            height: 35px;
-       }
+       } 
        #insta {
            width: 55px;
            height: 55px;
@@ -467,8 +469,10 @@
        }
        /* End of the footer */
    }
+
    
-   @media ( min-width: 595px) and (max-width:767px) {
+   
+   @media (min-width: 595px) and (max-width:767px) {
        /* Header */
        .navbar-brand h1 {
            font-size: 50px;

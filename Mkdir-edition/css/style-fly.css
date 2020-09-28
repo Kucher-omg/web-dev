@@ -1,0 +1,10 @@
+.simple-demo,
+.mobile-demo {
+    visibility: visible;
+}
+
+#fly-it,
+#fly,
+#fly-i {
+    position: relative;
+}

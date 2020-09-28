@@ -1,0 +1,40 @@
+#info-line {
+    background: black;
+    margin: 5% 0 5% 0;
+    padding: 10px 0 30px 0;
+    color: white;
+}
+
+.count-line {
+    font-size: 5em;
+}
+
+.info-count-line {
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+    .info-count-line {
+        visibility: hidden;
+        transition: opacity 0.5s ease-in-out;
+    }
+    .count-line {
+        cursor: pointer;
+    }
+    #count-line-1:hover~#info-count-line-1 {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.3s, visibility 0.3s;
+    }
+    #count-line-2:hover~#info-count-line-2 {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.3s, visibility 0.3s;
+    }
+    #count-line-3:hover~#info-count-line-3 {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.3s, visibility 0.3s;
+    }
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.shopping-container {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    width: 97%;
+    height: 80vh;
+    margin: auto;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+    background-image: url('/content/home/bag.jpg');
+    background-size: cover;
+    /* background-color: wheat; */
+    /* backdrop-filter: blur(8px); */
+    z-index: 100;
+}
+
+.sh-basket {
+    cursor: pointer;
+}
+
+.shopping-element__name {
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.shopping-element__price {
+    padding: 15px;
+    color: black;
+}
+
+.shopping-container div {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.shopping__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    background-image: url(close.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.minus,
+.number,
+.plus {
+    display: inline;
+    z-index: 100;
+}

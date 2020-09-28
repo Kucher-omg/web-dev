@@ -1,0 +1,56 @@
+.name-mac {
+    transform: rotate(-90deg);
+}
+
+.buy {
+    width: 100%;
+}
+
+.name-mac-middle {
+    transform: rotate(90deg);
+}
+
+.macbookAir div {
+    height: 100%;
+    width: 100%;
+}
+
+#MAC-page div,
+#iPhone-page div,
+#iPad-page div,
+#watch-page div {
+    margin: 5% 0 5% 0;
+}
+
+#block-nameMAC,
+#block-name-iPad,
+#block-name-watch {
+    font-family: 'Exo', sans-serif;
+    font-size: 50px;
+    padding-top: 60px;
+    /* margin-bottom: -100px; */
+    padding-bottom: 0;
+    color: black;
+}
+
+#block-name-iPhone {
+    font-family: 'Exo', sans-serif;
+    font-size: 50px;
+    padding-top: 35px;
+    /* margin-bottom: -100px; */
+    padding-bottom: 35px;
+    color: whitesmoke;
+}
+
+#iPhone-page {
+    background: black;
+}
+
+@media (max-width:450px) {
+    #MAC-page div,
+    #iPhone-page div,
+    #iPad-page div,
+    #watch-page div {
+        margin: 8% 0 8% 0;
+    }
+}
