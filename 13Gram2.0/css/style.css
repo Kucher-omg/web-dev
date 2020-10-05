@@ -121,7 +121,7 @@ button:focus {
 
 /* BODY */
 
- 
+
 /* #firstImg {
     background: url(../images/Main-content/fog.png) no-repeat;
     width: 100%;
@@ -149,15 +149,11 @@ button:focus {
 
 /* Tabacos */
 
-#tabak {
-    color: white;
-    font-size: 25px;
-}
-
 #features,
 #ugoli,
 #rent,
-#aboutUs {
+#aboutUs,
+#tabak {
     color: white;
     font-size: 25px;
 }
@@ -646,6 +642,103 @@ a#phone {
 /* END BODY */
 
 
+/*FOOTER*/
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 0;
+}
+
+#calendar-footer {
+    height: 9vw;
+    width: 9vw;
+    padding-top: 14%;
+    position: absolute;
+}
+
+#brand-footer {
+    color: whitesmoke;
+    line-height: .75;
+    text-align: center;
+    position: absolute;
+    padding-top: 14%;
+    font-size: 55px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container-footer {
+    margin-bottom: -15px;
+    /* position: absolute; */
+}
+
+.page-footer {
+    height: 100%;
+}
+
+#brand-footer p {
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 13px;
+}
+
+#brand-footer:hover,
+#brand-footer:focus {
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #fcf133, 1px 1px 4px #fcf133;
+}
+
+#time-footer {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    letter-spacing: 0;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 35%;
+}
+
+#social-footer {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5vw;
+}
+
+#phone-footer {
+    color: whitesmoke;
+    font-size: 1.8vw;
+    letter-spacing: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    /* padding-left: 25%; */
+    text-align: center;
+}
+
+#phone-footer:hover,
+#phone-footer:active {
+    text-decoration: none;
+    text-shadow: 1px 1px 2px white, 1px 1px 4px black;
+}
+
+#copy-footer {
+    padding-bottom: 0;
+    padding-top: 100px;
+    font-family: 'Seaweed Script', cursive;
+    font-size: 22px;
+}
+
+#ps-footer {
+    text-align: center;
+    position: absolute;
+    padding-top: 14%;
+}
+
+
+/*END FOOTER*/
+
+
 /*MEDIA*/
 
 
@@ -1072,6 +1165,16 @@ a#phone {
         width: 80%;
     }
     /* END MAP */
+    /*FOOTER*/
+    #brand-footer p {
+        color: whitesmoke;
+        font-size: 13px;
+        letter-spacing: 10px;
+    }
+    #ct-footer {
+        padding-top: 15px;
+    }
+    /*END FOOTER*/
 }
 
 @media (max-width: 860px) {
@@ -1158,10 +1261,6 @@ a#phone {
     #line5-1 {
         display: none;
     }
-    #tabak {
-        text-align: center;
-        font-size: 22px;
-    }
     p #line1-2,
     #line2-2,
     #line3-2,
@@ -1170,6 +1269,7 @@ a#phone {
         float: none;
         margin-right: 0;
         margin-left: 0;
+        font-size: 30px;
     }
     .btn {
         font-size: 15px;
@@ -1228,6 +1328,54 @@ a#phone {
         margin-top: 13%;
         /* opacity: .3; */
     }
+    /*FOOTER*/
+    footer {
+        background-color: black;
+        color: whitesmoke;
+        padding: 0;
+    }
+    #calendar-footer {
+        height: 10vw;
+        width: 10vw;
+        padding-top: 0%;
+        margin-left: 28%;
+    }
+    #brand-footer {
+        position: relative;
+        padding-top: 14%;
+        font-size: 55px;
+    }
+    .container-footer {
+        margin-bottom: -15px;
+    }
+    #brand-footer p {
+        font-size: 16px;
+        letter-spacing: 13px;
+    }
+    #time-footer {
+        font-size: 3vw;
+        position: relative;
+        margin: 0;
+        padding-left: 15%;
+    }
+    #social-footer {
+        font-size: 2.5vw;
+    }
+    #phone-footer {
+        font-size: 2.5vw;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    #copy-footer {
+        padding-bottom: 0;
+        padding-top: 0;
+        font-size: 22px;
+    }
+    #ps-footer {
+        position: relative;
+        padding-top: 6%;
+    }
+    /*END FOOTER*/
 }
 
 @media(max-width:730px) {
@@ -1333,6 +1481,15 @@ a#phone {
         width: 33px;
         height: 33px;
     }
+    #calendar-footer {
+        height: 10vw;
+        width: 10vw;
+        padding-top: 0%;
+        margin-left: 32%;
+    }
+    #phone-footer {
+        font-size: 1.5em;
+    }
 }
 
 @media(max-width: 580px) {
@@ -1387,10 +1544,18 @@ a#phone {
         padding: 0;
     }
     /* END MAP */
+    #phone-footer {
+        font-size: 1.5em;
+    }
+    #calendar-footer {
+        height: 10vw;
+        width: 10vw;
+        padding-top: 0%;
+        margin-left: 35%;
+    }
 }
 
 @media(max-width:440px) {
-    
     span.carousel-control-next-icon,
     span.carousel-control-prev-icon {
         margin-top: 50px;
@@ -1522,6 +1687,17 @@ a#phone {
         margin-top: 15%;
         /* opacity: .3; */
     }
+    #ugli-content {
+        margin-top: -60px;
+        margin-bottom: -100px;
+    }
+    #main-container-aboutUs {
+        margin-top: -70px;
+        margin-bottom: -50px;
+    }
+    #rent-content {
+        margin-top: 70px;
+    }
     #background-rent {
         height: 50%;
     }
@@ -1534,7 +1710,6 @@ a#phone {
     #hookah-inf>p {
         font-size: 3vw;
     }
-    
     #info {
         padding-right: 0;
         border-radius: 30px 30px 0 0;
@@ -1545,7 +1720,7 @@ a#phone {
         padding-top: 1.5%;
         padding-left: 0;
     }
-    a#phone{
+    a#phone {
         font-size: 3vw;
     }
     #discr {
@@ -1564,6 +1739,24 @@ a#phone {
         margin-top: -3%;
         padding: 0;
     }
+    /*FOOTER*/
+    #calendar-footer {
+        height: 3em;
+        width: 3em;
+        margin-left: 28%;
+        margin-top: 3%;
+    }
+    #time-footer {
+        font-size: 1.5em;
+    }
+    #copy-footer {
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    #social-footer {
+        font-size: 25px;
+    }
+    /*END FOOTER*/
 }
 
 @media(max-width:376px) {
@@ -1623,7 +1816,6 @@ a#phone {
     #hookah-inf>p {
         font-size: 3vw;
     }
-
     #info {
         height: 175px;
     }
@@ -1632,7 +1824,7 @@ a#phone {
         padding-top: 1%;
         padding-left: 0;
     }
-    a#phone{
+    a#phone {
         font-size: 3.5vw;
     }
     #discr {
@@ -1647,7 +1839,6 @@ a#phone {
         margin-top: -3%;
         padding: 0;
     }
-    
 }
 
 @media(max-width:321px) {
@@ -1703,7 +1894,7 @@ a#phone {
         padding-top: 1.5%;
         padding-left: 0;
     }
-    a#phone{
+    a#phone {
         font-size: 3.8vw;
     }
     #discr {
@@ -1718,4 +1909,47 @@ a#phone {
         margin-top: -3%;
         padding: 0;
     }
+    /*FOOTER*/
+    #calendar-footer {
+        height: 3em;
+        width: 3em;
+        margin-left: 22%;
+        margin-top: 2.5%;
+    }
+    #time-footer {
+        font-size: 1.2em;
+    }
+    #copy-footer {
+        font-size: 17px;
+    }
+    #insta2 {
+        width: 40px;
+        height: 40px;
+    }
+    #telegram2 {
+        width: 25px;
+        height: 25px;
+    }
+    #social-footer {
+        font-size: 22px;
+    }
+    #telegram2 {
+        height: 1.5em;
+        width: 1.5em;
+    }
+    #insta2 {
+        height: 2.3em;
+        width: 2.2em;
+    }
+    #ps-footer {
+        padding-bottom: 0px;
+    }
+    #brand-footer p {
+        font-size: 12px;
+        letter-spacing: 10px;
+    }
+    #phone-footer {
+        font-size: 1.2em;
+    }
+    /*END FOOTER*/
 }

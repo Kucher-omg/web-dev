@@ -26,7 +26,7 @@ $('.single-item').slick();
 //     $current.text($current.text().replace("View more", "View less"));
 // }
 
- 
+
 
 /* TOBACCOS CAROUSEL */
 var carousel = $(".carouselTobacco"),
